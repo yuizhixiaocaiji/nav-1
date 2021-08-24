@@ -108,7 +108,7 @@ var $siteList = $(".siteList");
 var $lastLi = $siteList.find("li.last");
 var x = localStorage.getItem("x");
 var xObject = JSON.parse(x);
-var hashMap = xObject || [{ logo: "A", url: "https://www.acfun.cn" }, { logo: "B", url: "https://www.bilibili.com" }];
+var hashMap = xObject || [{ logo: "G", url: "https://github.com/" }, { logo: "D", url: "https://developer.mozilla.org/zh-CN/" }];
 var simplifyUrl = function simplifyUrl(url) {
     return url.replace("https://", "").replace("http://", "").replace("www.", "").replace(/\/.*/, ""); // 删除 / 开头的内容
 };
@@ -158,4 +158,4 @@ $(document).on("keypress", function (e) {
     }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.3276b160.map
+//# sourceMappingURL=main.0bc4aaa5.map

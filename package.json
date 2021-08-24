@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "name": "nav-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yuizhixiaocaiji/nav-1.git",
+  "author": "你çxuCheng <你ç1390683299@qq.com>",
+  "license": "MIT"
+}
